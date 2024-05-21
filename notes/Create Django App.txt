@@ -1,0 +1,16 @@
+Create Project
+$ django-admin startproject mysite
+
+Apply migrations
+$ python manage.py migrate
+
+Run Server (on address 0.0.0.0 port 8080)
+$ python manage.py runserver
+$ python manage.py runserver 0.0.0.0:8080
+
+Create an App in a Project
+$ python manage.py startapp polls
+
+Interactive python shell
+$ python manage.py shell
+
