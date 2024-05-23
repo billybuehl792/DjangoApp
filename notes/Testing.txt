@@ -1,0 +1,3 @@
+Run tests in an app
+$ python manage.py test <app name>
+
